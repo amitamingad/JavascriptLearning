@@ -1,0 +1,8 @@
+let map = new Map();
+
+map.set("name", "John");
+
+let keys = Array.from(map.keys());
+// Error: numbers.push is not a function
+keys.push("more");
+alert(keys);
